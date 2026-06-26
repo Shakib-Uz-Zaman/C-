@@ -16,7 +16,7 @@ int main()
    int Gun = num1 * num2;
    cout<< "Gun: "<< Gun<<endl;
 
-   float Vag = num1 / num2;
+   float Vag = (float) num1 / num2;
    cout<< "Vag: "<< Vag<<endl;
 
    int Vagses = num1 % num2;
